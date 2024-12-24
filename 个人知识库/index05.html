@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>工具分享</title>
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="index01.html">数据可视化</a></li>
+                <li><a href="index02.html">个人论文</a></li>
+                <li><a href="index03.html">文章收集&nbsp;</a></li>
+                <li><a href="index04.html">掌握软件&nbsp;</a></li>
+                <li><a href="index05.html">工具分享&nbsp;</a></li>
+                <li><a href="index06.html">个人笔记</a></li>
+            </ul>
+        </nav>
+		    <style>
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .gallery-item {
+            flex: 1 1 calc(33.333% - 40px); 
+            box-sizing: border-box;
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .gallery-item p {
+            margin: 15px 0;
+            padding: 0 10px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+    </header>
+    <main>
+        <section>
+            <h2>工具分享</h2>
+                <div class="gallery">
+        <div class="gallery-item">
+            <img src="images/images05.png" alt="图片1">
+            <p>bilibili是文化社区和视频网站，经过十年多的发展，围绕用户、创作者和内容，构建了一个源源不断产生优质内容的生态系统，B站已经涵盖7000多个兴趣圈层的多元文化社区。</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/images06.png" alt="图片2">
+            <p>菜鸟教程,提供了最全的的web技术基础教程,介绍了HTML教程、CSS教程、Javascript教程、Python基础教程，PHP教程等各种建站基础。</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/images07.png" alt="图片3">
+            <p>中国知网,是国家知识基础设施的概念，由清华大学、清华同方发起，始建于1999年6月，是以实现全社会知识资源传播共享与增值利用为目标的信息化建设项目,是同方股份有限公司旗下的学术平台,为全社会知识资源共享提供知识信息资源、知识传播与数字化。</p>
+        </div>
+    </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 段劢谦个人知识库</p>
+    </footer>
+</body>
+</html>

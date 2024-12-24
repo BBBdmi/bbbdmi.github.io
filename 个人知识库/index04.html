@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>掌握软件</title>
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="index01.html">数据可视化</a></li>
+                <li><a href="index02.html">个人论文</a></li>
+                <li><a href="index03.html">文章收集&nbsp;</a></li>
+                <li><a href="index04.html">掌握软件&nbsp;</a></li>
+                <li><a href="index05.html">工具分享&nbsp;</a></li>
+                <li><a href="index06.html">个人笔记</a></li>
+            </ul>
+        </nav>
+        <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); 
+            grid-gap: 20px; 
+            width: 40%; 
+            max-width: 600px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+            background-color: #fff; 
+            padding: 20px; 
+            border-radius: 8px; 
+			margin: 0 auto;
+        }
+        .grid-item {
+            width: 100%; 
+            height: auto;
+            object-fit: cover; 
+            border-radius: 8px; 
+            transition: transform 0.3s ease; 
+        }
+        .grid-item:hover {
+            transform: scale(1.05); 
+        }
+        img {
+            width: 100%; 
+            height: auto; 
+            display: block; 
+        }
+    </style>
+    </header>
+    <main>
+		
+        <section>			
+            <h2>掌握软件</h2>
+			   <div class="grid-container">
+                <div class="grid-item"><img src="images/images01.png" alt="图片1"></div>
+                <div class="grid-item"><img src="images/images02.png" alt="图片2"></div>
+                <div class="grid-item"><img src="images/images03.png" alt="图片3"></div>
+                <div class="grid-item"><img src="images/images04.png" alt="图片4"></div>
+               </div>
+        </section>
+		
+    </main>
+    <footer>
+        <p>&copy; 2024 段劢谦个人知识库</p>
+    </footer>
+</body>
+</html>
